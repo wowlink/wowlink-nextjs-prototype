@@ -1,4 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next'
+// import { Octokit } from "@octokit/rest";
 
 // Use http://localhost:3000/api/redirect?repo=test&wow=gh for testing to navigate to GitHub
 export default (req: NextApiRequest, res: NextApiResponse) => {
